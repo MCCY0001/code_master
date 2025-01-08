@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(CPP)
+project(code_master_main LANGUAGES CXX)
 
-add_executable(main main.cpp)
-add_executable(main2 main2.cpp)
-target_compile_features(main PRIVATE cxx_std_20)
-target_compile_features(main2 PRIVATE cxx_std_20)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_subdirectory(code_master)
