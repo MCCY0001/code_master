@@ -1,4 +1,5 @@
 #build file
+build
 *.obj
 *.o
 #bin file
@@ -8,3 +9,7 @@
 *~.bak
 #log file
 *.log
+#cache file
+.cache
+#IDE file
+.vscode
