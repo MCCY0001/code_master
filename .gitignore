@@ -11,5 +11,3 @@ build
 *.log
 #cache file
 .cache
-#IDE file
-.vscode
