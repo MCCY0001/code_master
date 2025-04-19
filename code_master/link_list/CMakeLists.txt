@@ -1,0 +1,9 @@
+# 链表
+add_executable(linklist_1 1.cpp)
+add_executable(linklist_2 2.cpp)
+add_executable(linklist_3 3.cpp)
+add_executable(linklist_4 4.cpp)
+add_executable(linklist_5 5.cpp)
+add_executable(linklist_6 6.cpp)
+add_executable(linklist_7 7.cpp)
+add_executable(linklist_8 8.cpp)
